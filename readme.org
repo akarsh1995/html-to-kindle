@@ -1,0 +1,28 @@
+#+TITLE: Readme
+
+* Install wkhtmltopdf dep
+
+* Install poetry deps
+
+* run main.py
+
+
+* workflow
+
+** Get the article
+
+** set the download dir of the chrome using chrome options.
+
+** Chained action to save the webpage.
+
+** Get the summary of the webpage.
+
+** save it as html
+
+** Convert using kindlegen subprocess until it completes
+
+** get the mobi file.
+
+** setup smtp
+
+** send to the desired email.
